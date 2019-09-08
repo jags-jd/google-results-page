@@ -1,0 +1,351 @@
+.div-center{
+    justify-self: center;
+    align-self: end;
+}
+
+.div-left{
+    justify-self: left;
+    align-self: end;
+}
+
+.div-right{
+    justify-self: center;
+    align-self: center;
+    padding-top: 8px;
+}
+
+body {
+    font-family: Arial,sans-serif;
+}
+
+.div-top{
+    height:65px;
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+}
+
+.div-top img{
+    width: 92px;
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.search-styled-box{
+    width: 632px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.search-styled-box:hover, .search-styled-box:focus, .search-styled-box:active, .search-styled-box:focus-within{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-styled-box input{
+    width: 590px;
+    height: 34px;
+    background-color: transparent;
+    border:none;
+    display:block;
+    margin: 3px auto 0 auto;
+    font-size: 16px;
+}
+
+.div-top div a:link, .div-top div a:visited{
+    color: white;
+    background-color: #4387fd;
+    padding: 8px 16px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    align-self: center;
+}
+
+.div-gnav{
+    height: 58px;
+    display: grid;
+    grid-template-columns: 150px 632px auto;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+
+.div-gnav li{
+    display: inline-block;
+    padding: 16px 12px 12px 10px;
+    font-size: 13px;
+    color: #5F6368;
+}
+
+.div-gnav li:hover{
+    color: #1A73E8;
+}
+
+.gnav{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    position: absolute;
+    bottom: 0;
+}
+
+.results-stats{
+    color: #777;
+    padding: 0 8px 0 160px;
+    font-size: 14px;
+    line-height: 43px;
+}
+
+.div-floater{
+    width: 632px;
+    margin-left: 150px;
+    display: grid;
+    grid-template: auto 87px / 500px 138px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+}
+
+.div-floater h3{
+    color: #222;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px;
+}
+
+.div-floater li{
+    color: #222;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    line-height: 1.375;
+}
+
+.div-floater ol{
+    list-style: decimal;
+    padding-left: 36px;
+}
+
+b{
+    font-weight: 700;
+}
+
+.div-floater img{
+    justify-self: end;
+    width: 132px;
+}
+
+.div-floater div p{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #777;
+    margin-top: 6px;
+    padding-left: 36px;
+}
+
+
+.float-footer{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.float-footer a:link{
+    text-decoration: none;
+    align-items: end;
+}
+
+.page-title{
+    color: rgb(26, 13, 171);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 16px;
+    padding-top: 20px;
+}
+
+.page-title a:visited{
+    color: rgb(26, 13, 171);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 16px;
+}
+
+.page-link{
+    color: rgb(0, 102, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+.page-link a:visited{
+    color: rgb(0, 102, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+.div-result{
+    width:638px;
+    padding-left: 150px;
+}
+.div-result a, .div-result p{
+    display: block;
+}
+
+.div-result p{
+    padding-left: 16px; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.9833px;
+    margin-top: 5px;
+    color: rgb(84, 84, 84);
+}
+
+.mini-links{
+    width: 788px;
+    height: 40px;
+    position: :relative;
+}
+
+.mini-links a{
+    padding:10px;
+    color:rgb(119, 119, 119);
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    float: right;
+    text-decoration: none;
+}
+
+.floater-2{
+    width: 632px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin: 25px 0 25px 150px;
+}
+
+.floater-2 div{
+    display:inline-block;
+    width: 72px;
+    padding: 10px 0 24px 16px;
+}
+
+.floater-2 div a{ 
+    display: block;
+    color:rgb(26, 13, 171);
+    font-size: 14px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 3px;
+}
+
+.floater-2 div img{ 
+    display: block;
+    width: 72px;
+    height: 72px;
+}
+
+.rs{
+    color: rgb(119, 119, 119);
+    font-size:14px;
+    line-height: 16.8px;
+    margin: 16px 0 3px 16px;  
+}
+
+.bt{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px;
+}
+
+.fr{
+    float: right; 
+}
+
+.il{
+    display: inline;
+}
+
+.related-searches{
+    width:638px;
+    padding-left: 150px;
+}
+
+.related-searches ul{
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr / 1fr 1fr; 
+    margin-top: 12px;
+}
+
+.related-searches ul li{
+    color:rgb(26, 13, 171);
+    font-size:14px;
+    line-height: 16.8px;
+    margin: 8px 0 3px 16px;  
+    font-weight: 700;
+}
+
+.pages{
+    width:638px;
+    padding-left: 150px;
+}
+
+.pages ul{
+    margin: 30px auto;
+    text-align: center;
+}
+.pages ul li{
+    border-collapse: collapse;
+    color: rgb(66, 133, 244);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration-style: solid;
+    padding-right:10px;
+}
+
+footer{
+    color: #5F6368;  
+    text-decoration: none;
+    font-size:14px;
+    background: #f2f2f2;
+}
+
+footer a:link, footer a:visited{
+    color: #5F6368;  
+    text-decoration: none;
+    font-size:12px;
+}
+
+.footer-top{
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.footer-top span{
+    padding-left: 150px;
+}
+.footer-bot{
+    padding: 10px 0 10px 16px;
+    padding-left: 166px;
+}
+
+.footer-bot a:link{
+    padding-right: 20px;
+}
